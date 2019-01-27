@@ -19,7 +19,6 @@ function calculateFizzBuzz(upperLimit)
 
     for (let count = 1; count < maxNumber+1; count++)
     {
-        // note to self: only one statement at max executes
         if ((count % 15) == 0)
         {
             outputArray.push('FizzBuzz');
